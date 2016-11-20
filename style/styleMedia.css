@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px){
+    header{padding: 8px 8px;}
+    .nav li a{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .service{
+        width: auto;
+        float: none;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+    .service ul li a{
+        text-align: left;
+        padding-left: 100px;
+    }
+    .service ul li a:before{left: 70px;}
+
+    .img-box{text-align: center;}
+
+    #main{text-align: center;}
+
+    #wrapper h1{text-align: center;}
+
+    .wrap{text-align: center;}
+
+    .title-service p:before,
+    .title-service p:after{display: none;}
+
+    .work{
+        width: auto;
+        float: none;
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .title-company p{margin-left: 110px;}
+
+    #simple-info ol{margin-left: 115px;}
+    #simple-info ol li{width: 225px;}
+    #wrapper{padding: 0 10px;}
+
+    .accordion p{
+        font-size: 17px;
+    }
+    .accordion li{
+        margin-right: 10px;
+    }
+
+    .all-info-price h4{
+        font-size: 16px;
+    }
+
+    .all-info-price th, .all-info-price td{font-size: 14px;}
+}
+@media screen and (max-width: 768px){
+    .nav{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(52, 40, 32);
+        display: none;
+        margin-left: 0;
+    }
+    .nav li{float: none;}
+
+    .touchMenu{display: block}
+
+    .title-company p{margin-left: 150px;}
+    #simple-info ol{margin-left: 155px;}
+    #simple-info ol li{width: 225px;}
+
+    .company{
+        float: none;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .title-company p{margin-left: 50px;}
+
+    #simple-info ol{margin-left: 55px;}
+    #simple-info ol li{width: 225px;}
+}
+
