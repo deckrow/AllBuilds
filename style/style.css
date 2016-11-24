@@ -700,3 +700,46 @@ html, body, .sticky-footer{
     color: #5c5c5c;
     margin-bottom: 30px;
 }
+
+.info-contact input{
+    display: block;
+}
+.info-contact input[type="text"]{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: none;
+    background: #f3f1f1;
+    font-size: 16px;
+    padding: 0 17px 0 17px;
+    color: #5c5c5c;
+}
+.info-contact textarea{
+    margin-bottom: 20px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: none;
+    background: #f3f1f1;
+    font-size: 16px;
+    height: 150px;
+    width: 550px;
+    max-height: 400px;
+    max-width: 500px;
+    padding: 17px;
+    color: #5c5c5c;
+}
+.info-contact input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #f3f1f1;
+    color: #3c312c;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.info-contact input[type="submit"]:hover{background: #ededed}
+.info-contact input[type="submit"]:active{background: #e3e3e3;}
+
+.left{float: left;}
+.right{float: right;}
