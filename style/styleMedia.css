@@ -67,6 +67,18 @@
     }
     .nav li{float: none;}
 
+    .logo img{
+        width: 80px;
+        height: 40px;
+    }
+
+    .number{line-height: 40px;}
+
+    .number p{
+        line-height: 20px;
+        font-size: 13px;
+    }
+
     .touchMenu{display: block}
 
     .title-company p{margin-left: 150px;}
@@ -77,6 +89,16 @@
         float: none;
         width: 100%;
     }
+    
+    .left, .right{
+        float: none;
+    }
+    .left, .right p{
+        text-align: center;
+    }
+
+    .info-contact input{margin: auto;}
+
 
 }
 @media screen and (max-width: 480px){
