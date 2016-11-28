@@ -29,9 +29,10 @@
             
             var id = $(this).attr('data-show');
             var div = $('.all-info-price');
-            
+
             div.removeClass('active2');
-            $('#' + id).addClass('active2');
+            $('#' + id).addClass('active2' );
+
             
             $('.accordion li p').removeClass('red');
             $(this).children('p').addClass('red');
@@ -43,9 +44,21 @@
         $(".accord .accord-header").click(function () {
             if($(this).next("div").is(":visible")){
                 $(this).next("div").slideUp("slow");
-            } else {
+                $(this).css({
+                    'background': '',
+                    'border': ''
+                });
+            }else{
                 $(".accord .accord-content").slideUp("slow");
-                $(this).next("div").slideToggle("slow");
+                $(".accord .accord-header").css({
+                    'background': '',
+                    'border': ''
+                });
+                $(this).next("div").slideDown("slow");
+                $(this).css({
+                    'background': '#e3e3e3',
+                    'border': 'none'
+                });
             }
         });
     });

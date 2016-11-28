@@ -684,12 +684,12 @@ html, body, .sticky-footer{
     background: #f3f1f1;
     padding-left: 20px;
 }
-
+.accord-header{border-bottom: 1px solid #e03e38;}
 .accord-header h4{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid #e03e38;
+
     padding: 10px 0;
 }
 .accord-header .border-none{border-bottom: none;}
