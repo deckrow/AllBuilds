@@ -23,11 +23,9 @@ table, caption, tbody, tfoot, thead, tr, th, td{
 }
 
 html{
-    height: 100%;
     font-size: 100%;
 }
 body{
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -171,28 +169,17 @@ header{
     margin-bottom: 40px;
 }
 
-.sticky-footer{
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* высота веб-страницы больше или равна высоте окна браузера */
+    margin: 0;
+}
+
+#wrapper{
+    flex: 1;
     min-height: 100%;
-    margin-bottom: -189px;
 }
-
-html, body, .sticky-footer{
-    overflow: auto;
-}
-
-.sticky-footer:after {
-    content: "";
-    display: block;
-}
-
-#footer, .sticky-footer:after {
-    height: 85px;
-}
-
-.margin-top{
-    margin-top: 70px;
-}
-
 
 #wrapper h1{
     text-align: center;
@@ -783,4 +770,18 @@ html, body, .sticky-footer{
 
 hr{
     margin: 5px 0 15px 0;
+}
+
+.img-bg-top{
+    background: url(../img/bg-main.jpg);
+    width: 100%;
+    min-height: 500px;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.img-box img{
+    width: 320px;
+    height: 305px;
 }
